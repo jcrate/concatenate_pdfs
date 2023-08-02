@@ -7,3 +7,10 @@ DerivedData/
 .swiftpm/config/registries.json
 .swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
 .netrc
+
+# exclude built product directory
+/built_product
+
+# exclude the developer id file
+/codesign/developer_id.env
+
