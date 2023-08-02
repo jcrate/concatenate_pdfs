@@ -44,7 +44,7 @@ if [[ -f "${zipPath}" ]]
 then
   rm "${zipPath}"
 fi
-ditto -c -k --sequesterRsrc --keepParent "${binaryPath}" "${zipPath}"
+ditto -c -k --sequesterRsrc "${binaryPath}" "${zipPath}"
 
 
 echo "uploading for notarization with credentials ${notarytool_credentials}"

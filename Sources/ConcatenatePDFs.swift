@@ -12,7 +12,7 @@ struct ConcatenatePDFs: ParsableCommand {
         usage: """
             concatenate_pdfs -d concatenated.pdf first.pdf second.pdf third.pdf
         """,
-        version: "1.0.0"
+        version: "1.0.1"
     )
     
     @Option(name: .shortAndLong, help: "Destination path for concatenated PDF")
@@ -73,5 +73,3 @@ struct ConcatenatePDFs: ParsableCommand {
     }
     
 }
-
-//ConcatenatePDFs.main()
